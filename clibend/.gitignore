@@ -1,0 +1,29 @@
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/*
+!/storage/app/public
+/storage/framework/*
+/storage/logs/*
+.env
+.env.backup
+Homestead.yaml
+Homestead.json
+*.log
+.phpunit.result.cache
+
+# IDEs
+.idea
+.vscode
+*.sublime-*
+
+# npm/composer logs
+npm-debug.log
+yarn-error.log
+composer.lock
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
